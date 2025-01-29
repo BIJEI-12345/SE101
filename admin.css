@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(218, 138, 33);
+    margin: 0;
+}
+.header{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+.header img{
+    margin-left: 1%;
+    width: 5%;
+}
+.header p{
+    margin-top: 1.8%;
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.side{
+    width: 15%; 
+    height: 89vh;
+    background-color: rgb(219, 219, 48);
+
+}

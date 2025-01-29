@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF5CC;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.sign-container {
+    width: 90%;
+    background-color: #FFE066;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #eec934;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.signUp-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.signUp-form input,
+.signUp-form select {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.signUp-form input:focus,
+.signUp-form select:focus {
+    border-color: #999;
+    outline: none;
+}
+
+.submit-btn {
+    background-color: #eec934;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #ffd700;
+}

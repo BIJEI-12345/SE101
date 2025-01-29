@@ -14,10 +14,10 @@
             const password = document.querySelector('input[type="password"]').value;
 
             const validUsername = "admin@gmail.com";
-            const validPassword = "123abcd";
+            const validPassword = "12345";
 
             if (username === validUsername && password === validPassword) {
-                window.location.href = "icons2.html";
+                window.location.href = "admin.php";
             } else {
                 alert("Failed to login. Please check your username and password.");
             }
