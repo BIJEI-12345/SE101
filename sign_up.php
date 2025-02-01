@@ -13,7 +13,7 @@
             <h1>Create Account</h1>
         </div>
         <form class="signUp-form">
-            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Name: (eg. John Doe)" required>
             <input type="text" placeholder="Position" required>
             <input type="text" placeholder="Student No." required pattern="[0-9]{4}-[0-9]{4}" title="The format is Incorrect!">
             <input type="password" placeholder = "Password" required>

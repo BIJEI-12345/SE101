@@ -8,20 +8,18 @@
 </head>
 <body>
     <div class="header">
-        <img src="img/logo.jpg">
+        <img src="img/logo.jpg" alt="Logo">
         <h1>ADMIN</h1>
         <p>Dashboard</p>
     </div>
     
    <div class="container">
-   <div class="side">
-        <nav>Create Account</nav>
-        <nav>View</nav>
-        <nav>Edit</nav>
+       <div class="side">
+            <nav><a href="sign_up.php">Create Account</a></nav>
+            <nav><a href="view.html">View</a></nav>
+            <nav><a href="edit.html">Edit</a></nav>
+            <nav><a href="index.php">Log out</a></nav>
+       </div>
    </div>
-   </div>
-
-   
-
 </body>
 </html>

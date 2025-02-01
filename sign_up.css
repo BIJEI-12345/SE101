@@ -10,7 +10,8 @@ body {
 }
 
 .sign-container {
-    width: 90%;
+    width: 20%;
+    height: 50vh; /* Making it shorter */
     background-color: #FFE066;
     padding: 20px;
     border-radius: 8px;
@@ -46,7 +47,9 @@ body {
 .signUp-form {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100%; /* Making it square */
+    align-items: center;
+    justify-content: center;
 }
 
 .signUp-form input,
@@ -56,7 +59,7 @@ body {
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 20%;
+    width: 80%; /* Adjusting width to fit square layout */
 }
 
 .signUp-form input:focus,
@@ -75,6 +78,7 @@ body {
     border-radius: 5px;
     margin-top: 10px;
     transition: background-color 0.3s;
+    width: 80%;
 }
 
 .submit-btn:hover {
